@@ -19,7 +19,8 @@ class ArkInterceptor():
                    "bi-track.hypergryph.com" : (remote_server, 9443),
                    "gv1.xdrig.com": (remote_server, 9443),
                    "me.xdrig.com": (remote_server, 9443),
-                   "ak-fs.hypergryph.com": (remote_server, 9443)
+                   "ak-fs.hypergryph.com": (remote_server, 9443),
+                   "ak-conf.hypergryph.com": (remote_server, 9443)
                 }
 
     ServersList = [key for key in Servers.keys()] + [val[0] for val in Servers.values()]
